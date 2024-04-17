@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=4.0">
+    <link rel="stylesheet" href="petrolcalculator.css"/>
+    <title>Petrol calculator</title>
+</head>
+<body>
+    <div class="container">
+    <h1>Petrol calculator</h1>
+    <label for="cost">Cost of petrol (per litre):</label>
+    <input type="number" id="cost" min="0">
+    <br><br>
+    <label for="fuelEfficiency">litres purchased (in km/liter):</label>
+    <input type="number" id="Litres purchased" min="0">
+    <br><br>
+    <button onclick="calculatorPetrol()">Calculate</button>
+    <br><br>
+    <p id="result"></p>
+
+    <script>
+        function calculatorPetrol() {
+            const distance = parseFloat(document.getElementById('distance').value); 
+            const fuelEfficiency = parseFloat(document.getElementById('fuelEfficiency').value);
+            
+            if (isNaN(distance) || isNaN(fuelEfficiency) || distance <= 0 || fuelEfficiency <= 0) {
+        document.getElementById('result').textContent = 'Please enter valid inputs.';
+        return;
+        }
+
+        const petrolNeeded = distance / fuelEfficiency;
+        const resultTest = `You will need ${petrolNeeded.toFixed(2)} liters of petrol.`;
+        document.getElementById('result').textContent = resultText;
+    }
+    </script>
+    </div>
+</body>
+</html>
