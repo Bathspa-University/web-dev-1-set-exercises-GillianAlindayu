@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(126, 126, 126);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 2;
+  }
+  
+  .overview {
+    border-left:rgb(21, 19, 1);
+    border-style: dotted;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(218, 218, 218);
+    border-radius: 3rcap;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-style: italic;
+    text-align: center; 
+
+  }
+  
+  .title {
+    font-size: 3rem;
+    margin-bottom: 0;
+  }
+  
+  .title2 {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .info {
+    margin-bottom: 30px;
+  }
+  
+  .prargraph {
+    margin-top: 0;
+  }
+  
+  .second-part {
+    margin-top: 30px;
+  }
+  
+  .third-part {
+    margin-top: 30px;
+  }
+  
+  .info-3rd-part {
+    margin-top: 0;
+  }
+  
+  .fourth-part {
+    margin-top: 30px;
+  }
+  
+  .conflict {
+    margin-top: 30px;
+  }
+  
+  .Ending {
+    margin-top: 30px;
+  }

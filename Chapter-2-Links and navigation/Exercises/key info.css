@@ -1,0 +1,81 @@
+body {
+    background-color: rgba(208, 208, 165, 0.449);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.main {
+    border-style: dotted; 
+    border-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.information {
+    background-color: #f2f2f2;
+    border-left: 6px solid #4a1604;
+    padding: 12px 20px;
+}
+
+.title {
+    color: #ff9800;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.theme {
+    background-color: #f2f2f2;
+    border-left: 6px solid #0a2c0b;
+    margin-top: 20px;
+    padding: 12px 20px;
+}
+
+.theme h3 {
+    color: #0a2c0b;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.theme p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.books {
+    background-color: #f2f2f2;
+    border-left: 6px solid #1e3641;
+    margin-top: 20px;
+    padding: 12px 20px;
+}
+
+.books h2 {
+    color: #1e3641;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.series {
+    background-color: #f2f2f2;
+    border-left: 6px solid #1e3641;
+    margin-top: 20px;
+    padding: 12px 20px;
+}
+
+.series h3 {
+    color: #1e3641;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.series ul {
+    font-size: 16px;
+    line-height: 1.5;
+    list-style-position: inside;
+    padding: 0;
+}

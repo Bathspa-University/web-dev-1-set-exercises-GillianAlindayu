@@ -1,0 +1,68 @@
+body {
+    background-color: #333;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    font-style: italic; 
+}
+
+.title {
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 2em;
+    font-style: italic; 
+    margin-top: 0;
+    text-align: center;
+}
+
+.Description {
+    border-style: dotted; 
+    background-color: rgb(242, 246, 249);
+    margin: 20px;
+    font-size: 1.5rem
+}
+
+.paragraph1 {
+    border-style: dotted; 
+    text-align: justify;
+
+}
+
+.menu {
+    border-style: dotted;
+    background-color: #737373;
+    overflow: hidden;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    float: center;
+}
+
+.menu li a {
+    border-style: dotted; 
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+    font-size: 1.5rem; 
+}
+
+.menu li a:hover {
+    background-color: #a4a4a4;
+}
